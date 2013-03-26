@@ -1,0 +1,9 @@
+.. title: first post
+.. slug: first-post
+.. date: 2013/03/26 22:18:42
+.. tags: tag1, tag2
+.. link: 
+.. description: 
+
+
+Write your post here. Here is My Great Post!

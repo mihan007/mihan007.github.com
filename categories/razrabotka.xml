@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Блог увлекающегося разработчика (разработка)</title><link>http://mihan007.ru</link><description>Сериальное, вебное, разное</description><lastBuildDate>Tue, 26 Mar 2013 23:11:38 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Глобальный переезд</title><link>http://mihan007.ru/posts/globalnyi-pereezd.html</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Сейчас модно отказываться от сервисов гугла. Сейчас модно иметь свой блог как набор html-страниц, которые отдаются
+со скоростью света и не подвержены всяческим атакам зловредных людей. Так и я, следуя моде, решился на переезд
+своего бложика с использованием &lt;a class="reference external" href="https://github.com/ralsina/nikola"&gt;Nikola&lt;/a&gt;. Выбор непростой и возможно я ещё передумаю - альтернатив масса, но этот вариант
+выглядит наиболее функциональным (спасибо &lt;a class="reference external" href="https://twitter.com/iiiii"&gt;@iiiii&lt;/a&gt;!)&lt;/p&gt;
+&lt;p&gt;В ближайших планах:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;&lt;li&gt;Перегнать сюда посты из прежнего блога&lt;/li&gt;
+&lt;li&gt;Поработать с дизайном&lt;/li&gt;
+&lt;li&gt;Понять и простить этот инструмент и разобраться как оно работает&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;Надеюсь, что результатом работы станет мануал по безболезненному переходу с &lt;a class="reference external" href="http://blogger.com"&gt;blogger.com&lt;/a&gt; на &lt;a class="reference external" href="https://github.com/ralsina/nikola"&gt;Nikola&lt;/a&gt;, которого сейчас
+мне чертовски не хватает. Ну что - с почином!&lt;/p&gt;
+&lt;img alt="/images/chicken.jpg" src="/images/chicken.jpg"&gt;&lt;/body&gt;&lt;/html&gt;</description><guid>http://mihan007.ru/posts/globalnyi-pereezd.html</guid><pubDate>Tue, 26 Mar 2013 18:35:17 GMT</pubDate></item></channel></rss>

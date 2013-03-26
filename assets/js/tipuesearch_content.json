@@ -1,0 +1,10 @@
+{
+  "pages": [
+    {
+      "text": "Write your post here. Here is My Great Post!", 
+      "tags": "tag1,tag2", 
+      "loc": "/posts/first-post.html", 
+      "title": "first post"
+    }
+  ]
+}
