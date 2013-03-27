@@ -61,7 +61,7 @@
 .. gist:: 5252844
 
 7. Запустите консольный инсталлятор компонента yiic mailing install phplist\_, где phplist\_ - префикс таблиц в базе данных
-для phpList (в файле config.php у phpList этот параметр называется table_prefix). Это добавит необходимые данные в таблицы phpList.
+   для phpList (в файле config.php у phpList этот параметр называется table_prefix). Это добавит необходимые данные в таблицы phpList.
 8. Настроить компонент веб приложения в файле config.php:
 
 .. gist:: 5252851
