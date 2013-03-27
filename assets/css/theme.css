@@ -64,3 +64,12 @@ blockquote p, blockquote {
   line-height: 1.25;
 }
 
+.published {
+    font-size: 80%;
+}
+
+iframe {
+    margin: 10px auto 20px auto;
+    display: block;
+}
+

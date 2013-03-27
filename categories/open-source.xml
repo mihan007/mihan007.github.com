@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Блог увлекающегося разработчика (open source)</title><link>http://mihan007.ru</link><description>Сериальное, вебное, разное</description><lastBuildDate>Wed, 27 Mar 2013 13:20:04 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Интеграция PhpList и Yii</title><link>http://mihan007.ru/posts/yii-and-phplist-integration.html</link><description>&lt;html&gt;&lt;body&gt;&lt;div class="section" id="id2"&gt;
+&lt;h2&gt;Условия задачи&lt;/h2&gt;
+&lt;ol class="arabic simple"&gt;&lt;li&gt;Есть стабильная система для рассылки информации разного рода по емаил (например, емаил маркетинг) - &lt;a class="reference external" href="http://www.phplist.com/"&gt;PhpList&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Есть сайт на фреймворке &lt;a class="reference external" href="http://www.yiiframework.com/"&gt;Yii&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Таблица пользователей подсистемы рассылки и сайта - разные.&lt;/li&gt;
+&lt;/ol&gt;&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;Требуется&lt;/h2&gt;
+&lt;p&gt;Сделать прозрачную интеграцию на уровне:
+- в административном интерфейсе phpList администратор должен уметь добавлять пользователей из базы Yii;
+- также необходим компонент для Yii, способный добавлять подписчиков через API;
+- необходима консольная команда Yii для периодической рассылки по крону.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id4"&gt;
+&lt;h2&gt;Решение&lt;/h2&gt;
+&lt;p&gt;компонент для фреймворка Yii - &lt;a class="reference external" href="https://github.com/mihan007/Yii-phpList"&gt;https://github.com/mihan007/Yii-phpList&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/posts/yii-and-phplist-integration.html"&gt;Продолжить чтение...&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</description><guid>http://mihan007.ru/posts/yii-and-phplist-integration.html</guid><pubDate>Mon, 27 Aug 2012 08:50:54 GMT</pubDate></item></channel></rss>
