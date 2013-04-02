@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Блог увлекающегося разработчика (блог)</title><link>http://mihan007.ru</link><description>Сериальное, вебное, разное</description><lastBuildDate>Wed, 27 Mar 2013 13:27:23 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Глобальный переезд</title><link>http://mihan007.ru/posts/globalnyi-pereezd.html</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Сейчас модно отказываться от сервисов гугла. Сейчас модно иметь свой блог как набор html-страниц, которые отдаются
+<rss version="2.0"><channel><title>Блог увлекающегося разработчика (блог)</title><link>http://mihan007.ru</link><description>Сериальное, вебное, разное</description><lastBuildDate>Tue, 02 Apr 2013 12:19:39 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Markdown vs ReST vs OneMoreMarkupLanguage</title><link>http://mihan007.ru/posts/markdown-vs-rest-vs-onemoremarkuplanguage.html</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Сегодняшнее повествование о способах разметки простого текстового документа, который чуть позже превратится в полноценный html.
+Вдохновлён содержанием статьи &lt;a class="reference external" href="http://www.wilfred.me.uk/blog/2012/07/30/why-markdown-is-not-my-favourite-language/"&gt;"Why Markdown Is Not My Favourite Language"&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="markdown"&gt;
+&lt;h2&gt;Markdown&lt;/h2&gt;
+&lt;p&gt;Итак, первым и наиболее распространённым в гиковском мире является &lt;strong&gt;Markdown&lt;/strong&gt;. Всё бы с ним было хорошо - и выглядит замечательно как
+с точки зрения транслятора в html, так и с точки зрения рядового разработчика, который фигачит очередной ман к проекту в старом добром emacs (ну или новом модном sublime text 2/3). Однако, родовые травмы и тут присутствуют.&lt;/p&gt;
+&lt;p&gt;Во-первых, каждый уважающий себя сервис - будь он гитхабом или стек оверфлоу - почему то решает, что надо свой диалект создать. И ведь пишут, чем вносят сумятицу в мир
+тех, кто только-только погружается в тему. Человек набирается знаний, который при переходе в очередное маркдаун-ориентед проект не пригодятся по большей части.&lt;/p&gt;
+&lt;img alt="http://imgs.xkcd.com/comics/standards.png" src="http://imgs.xkcd.com/comics/standards.png"&gt;&lt;p&gt;Во-вторых, из-за возможности вставить в текст маркдаун документа чистый html, который парсер будет бездумно вставлять в конечный документ, появляется потенциальная
+дыра в безопасности. И html приходится как-то валидировать, выкидывать всё ненужное. Опять же теряется вся семантика документа. Встаёт закономерный вопрос - почему так?
+Статья &lt;a class="reference external" href="http://www.wilfred.me.uk/blog/2012/07/30/why-markdown-is-not-my-favourite-language/"&gt;Wilfred Hughes&lt;/a&gt; содержит ряд примеров. Не будем копи-пастить.&lt;/p&gt;
+&lt;p&gt;В частности его напрягают:&lt;/p&gt;
+&lt;ul class="simple"&gt;&lt;li&gt;то как форматируются списки в сочетании со вставками кода&lt;/li&gt;
+&lt;li&gt;ограниченный функционал (ссылки автоматически не распознаются)&lt;/li&gt;
+&lt;li&gt;системы плагинов поддерживаются не всеми парсерами (а плагины потенциально решают ряд проблем)&lt;/li&gt;
+&lt;li&gt;изначально таблицы не поддерживаются нативно (приходится внедрять html)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Как же быть?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="restructuredtext"&gt;
+&lt;h2&gt;ReStructuredText&lt;/h2&gt;
+&lt;p&gt;Эволюцией мардкауна принято считать разработку питонистов, которая значительно дополнила и расширила его, привнеся своеобразный оттенок Latex. Именно на её основе
+и готовятся посты для этого блога. Штука с одной стороны очень простая в использовании, с другой стороны без чтения оригинального мана иногда непонятно куда коней
+запрягать. Вот этот диалект я использую и вполне счастлив: &lt;a class="reference external" href="http://nikola.ralsina.com.ar/quickref.html"&gt;A reStructuredText Reference&lt;/a&gt;. Насколько я понял это форк
+оригинального языка разработки автором движка блога Nikola.&lt;/p&gt;
+&lt;p&gt;Ещё большей радостью для меня явилась поддержка плагинов, который дают возможность быстро вставить gist, видео с youtube и vimeo. Опять же автор оригинальной статьи
+находит ряд раздражающих мелочей:&lt;/p&gt;
+&lt;ul class="simple"&gt;&lt;li&gt;там где в мардауне надо ставить одну ` тут зачастую приходится ставить две&lt;/li&gt;
+&lt;li&gt;подчёркивание заголовков строго ограничено знаками - и =, причём длина подчёркивания должна быть не меньше длины заголовка&lt;/li&gt;
+&lt;li&gt;отстутствие javascript парсера и вывод ошибок трансляции прямо в конечный текст - вот это действительно печалит&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="section" id="creole"&gt;
+&lt;h2&gt;Creole&lt;/h2&gt;
+&lt;p&gt;Как панацею от всех бед автор предлагает &lt;a class="reference external" href="http://wikicreole.org/"&gt;Creole&lt;/a&gt; - некий общий знаменатель синтаксисов крупнейших вики движков (MediaWiki, MoinMoin).
+В качестве аргументов за утверждается, что проект быстро эволюционирует, лёгок для усвоения и испытан в разных окружениях. Также есть реализация для фронтенда на
+JavaScript, что позволяет организовать полноценный предпросмотр в реальном времени. В базовом составе есть: ссылки, заголовки, сниппеты кода, таблицы и картинки.
+Довольно неплохо для большинства случаев.&lt;/p&gt;
+&lt;p&gt;Думаю, что прежде чем судить, надо попробовать. Но закрадывается смутное сомнение на тот факт, что последний проект привлёк автора тем, что проект быстро развивается.
+А как отмечал &lt;a class="reference external" href="http://addmeto.cc"&gt;Бобук&lt;/a&gt; , это то, что многие(все?) гики очень любят. На себе могу сказать - любим, но после персональной проверки.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id3"&gt;
+&lt;h2&gt;Вывод&lt;/h2&gt;
+&lt;p&gt;Чем бы гик не тешился, лишь бы мыться не забывал. Каждый выбирает разметку под свои задачи и вкусы. Наличие разнообразия и то, что парсеры это опен сорс проекты
+даёт возможность любому посвященному написать/дописать свой. Дерзайте, друзья. А я пойду &lt;a class="reference external" href="http://voyanga.com"&gt;вояшу&lt;/a&gt; попилю )&lt;/p&gt;
+&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</description><guid>http://mihan007.ru/posts/markdown-vs-rest-vs-onemoremarkuplanguage.html</guid><pubDate>Tue, 02 Apr 2013 07:27:23 GMT</pubDate></item><item><title>Глобальный переезд</title><link>http://mihan007.ru/posts/globalnyi-pereezd.html</link><description>&lt;html&gt;&lt;body&gt;&lt;p&gt;Сейчас модно отказываться от сервисов гугла. Сейчас модно иметь свой блог как набор html-страниц, которые отдаются
 со скоростью света и не подвержены всяческим атакам зловредных людей. Так и я, следуя моде, решился на переезд
 своего бложика с использованием &lt;a class="reference external" href="https://github.com/ralsina/nikola"&gt;Nikola&lt;/a&gt;. Выбор непростой и возможно я ещё передумаю - альтернатив масса, но этот вариант
 выглядит наиболее функциональным (спасибо &lt;a class="reference external" href="https://twitter.com/iiiii"&gt;@iiiii&lt;/a&gt;!)&lt;/p&gt;
