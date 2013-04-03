@@ -73,3 +73,12 @@ iframe {
     display: block;
 }
 
+#addthisbox {
+    display: none;
+}
+
+@media (min-width: 980px) {
+    #addthisbox {
+        display: block !important;
+    }
+}
