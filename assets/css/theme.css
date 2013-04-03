@@ -77,6 +77,11 @@ iframe {
     display: none;
 }
 
+img {
+    display: block;
+    margin: auto;
+}
+
 @media (min-width: 980px) {
     #addthisbox {
         display: block !important;
