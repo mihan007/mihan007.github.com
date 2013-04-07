@@ -65,6 +65,11 @@
   <priority>0.5000</priority>
  </url>
  <url>
+  <loc>http://mihan007.ru/.git/objects/02/</loc>
+  <lastmod>2013-04-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
   <loc>http://mihan007.ru/.git/objects/03/</loc>
   <lastmod>2013-04-02</lastmod>
   <priority>0.5000</priority>
@@ -256,7 +261,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/32/</loc>
-  <lastmod>2013-03-27</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -351,7 +356,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/48/</loc>
-  <lastmod>2013-03-27</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -391,12 +396,17 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/52/</loc>
-  <lastmod>2013-03-27</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/53/</loc>
   <lastmod>2013-03-26</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://mihan007.ru/.git/objects/54/</loc>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -416,7 +426,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/58/</loc>
-  <lastmod>2013-04-02</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -556,7 +566,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/79/</loc>
-  <lastmod>2013-03-27</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -671,7 +681,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/93/</loc>
-  <lastmod>2013-04-02</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -845,6 +855,11 @@
   <priority>0.5000</priority>
  </url>
  <url>
+  <loc>http://mihan007.ru/.git/objects/bf/</loc>
+  <lastmod>2013-04-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
   <loc>http://mihan007.ru/.git/objects/c0/</loc>
   <lastmod>2013-04-02</lastmod>
   <priority>0.5000</priority>
@@ -911,7 +926,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/d3/</loc>
-  <lastmod>2013-03-26</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -956,7 +971,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/e1/</loc>
-  <lastmod>2013-04-02</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1081,7 +1096,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/.git/objects/fe/</loc>
-  <lastmod>2013-03-27</lastmod>
+  <lastmod>2013-04-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1141,7 +1156,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/archive.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1186,42 +1201,42 @@
  </url>
  <url>
   <loc>http://mihan007.ru/categories/blog.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/categories/index.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/categories/knigi.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/categories/lichnoe.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/categories/miuzikly.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/categories/open-source.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/categories/razrabotka.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://mihan007.ru/categories/serialy.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1236,7 +1251,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/categories/yii.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1246,7 +1261,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/galleries/index.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1266,7 +1281,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/listings/index.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -1276,7 +1291,7 @@
  </url>
  <url>
   <loc>http://mihan007.ru/mustache.html</loc>
-  <lastmod>2013-04-03</lastmod>
+  <lastmod>2013-04-07</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
