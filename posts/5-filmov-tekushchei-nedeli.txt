@@ -44,3 +44,5 @@
 .. youtube:: ZROrhzCFdSo
 
 А что планируете посмотреть вы?
+
+.. image:: /images/movie.jpg
